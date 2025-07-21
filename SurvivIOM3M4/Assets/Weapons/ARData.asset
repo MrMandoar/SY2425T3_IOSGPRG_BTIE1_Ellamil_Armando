@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6756df3997f0b4e4cb3931bbb18856f1, type: 3}
+  m_Name: ARData
+  m_EditorClassIdentifier: 
+  weaponName: AR
+  weaponType: 3
+  worldSprite: {fileID: 21300000, guid: 5b27516d08af32b4fba21bcf18e82565, type: 3}
+  equippedSprite: {fileID: 21300000, guid: 1dc6434b31c165949bc9c032958b1dd6, type: 3}
+  ammoType: 556
+  damage: 15
+  fireRate: 0.35
+  magazineSize: 16
+  reloadTime: 2.3
+  bulletPrefab: {fileID: 6247513300049154717, guid: 55ebeefeabcdd2d48b52ceb786e69a2d, type: 3}
