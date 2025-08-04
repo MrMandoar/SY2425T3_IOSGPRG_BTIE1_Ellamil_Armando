@@ -41,17 +41,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 186729980929922971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e00812f5fd606ef4d8bd8bf170b96ca3, type: 3}
+  m_Script: {fileID: 11500000, guid: 724b9a6b586c9874e8612b3a44cb75de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minToSpawn: 3
-  maxToSpawn: 10
-  zoneSize: {x: 3, y: 3}
+  minToSpawn: 2
+  maxToSpawn: 6
+  zoneSize: {x: 5, y: 5}
   ammoPrefabs:
   - {fileID: 7107715281810279091, guid: f3e9d9481b2d9c146abed3fe2b21678f, type: 3}
   - {fileID: 8430097877220979393, guid: 0cb6526da8dfe1d4b98a6e2498f94b67, type: 3}
   - {fileID: 5147460540380233035, guid: 5df0affa2c9ff5749915817415420566, type: 3}
-  gizmoColor: {r: 0, g: 0.123168945, b: 1, a: 0.25}
+  gizmoColor: {r: 1, g: 1, b: 0, a: 0.25}
 --- !u!1 &4231744182467930743
 GameObject:
   m_ObjectHideFlags: 0

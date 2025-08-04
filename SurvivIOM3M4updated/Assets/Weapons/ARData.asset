@@ -21,5 +21,5 @@ MonoBehaviour:
   fireRate: 0.35
   magazineSize: 16
   reloadTime: 2.3
-  bulletPrefab: {fileID: 8333964603881002405, guid: 2a79cd8ad5e9ec242922b7230f520520, type: 3}
+  bulletPrefab: {fileID: 8029539621721035004, guid: 5d109fab6f8dfdb47a5e2f7e933fe1f5, type: 3}
   weaponPrefab: {fileID: 7297584682059323170, guid: a14129472b604e242a4782584a3caf2e, type: 3}
