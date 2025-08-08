@@ -29,8 +29,7 @@ Transform:
   m_LocalPosition: {x: -0.06, y: -0.44220933, z: -1.8711773}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 390568822589830012}
+  m_Children: []
   m_Father: {fileID: 3429819192840306435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7719335099596302302
@@ -109,12 +108,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138346619236022425}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.791, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.06, y: 0.19059071, z: -1.8711773}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7702281319069129702}
+  m_Father: {fileID: 3429819192840306435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7297584682059323170
 GameObject:
@@ -126,6 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3429819192840306435}
   - component: {fileID: 2113963188853922206}
+  - component: {fileID: 6221834623216476376}
   m_Layer: 0
   m_Name: ARPrefab
   m_TagString: Untagged
@@ -142,11 +142,12 @@ Transform:
   m_GameObject: {fileID: 7297584682059323170}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.62945765, y: 0.44220933, z: 1.8711773}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7702281319069129702}
+  - {fileID: 390568822589830012}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2113963188853922206
@@ -159,6 +160,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34b79691db988694c84f8447db837aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponData: {fileID: 11400000, guid: 87fecabcefa2c7a459ee16ff2651f47f, type: 2}
+--- !u!114 &6221834623216476376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7297584682059323170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 643e8b69e86ab4940b4b5eb4e216b38b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 87fecabcefa2c7a459ee16ff2651f47f, type: 2}

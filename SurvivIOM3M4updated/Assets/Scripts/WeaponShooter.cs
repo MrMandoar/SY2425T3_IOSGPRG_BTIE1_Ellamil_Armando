@@ -121,6 +121,7 @@ public class WeaponShooter : MonoBehaviour
         {
             bulletScript.SetDirection(direction);
             bulletScript.SetDamage(CurrentWeapon.damage);
+            bulletScript.SetShooter(gameObject);
         }
     }
 

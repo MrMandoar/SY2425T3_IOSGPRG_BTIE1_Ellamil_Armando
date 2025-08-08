@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5004630322225876632}
   - component: {fileID: 3130197270475851865}
   - component: {fileID: 6533317286839704694}
+  - component: {fileID: 9198930463850040487}
   m_Layer: 0
   m_Name: WoodBarrel
   m_TagString: Untagged
@@ -142,9 +143,21 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.71
+--- !u!114 &9198930463850040487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212328739072463638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accf64d663b72d54c838a4809d8df976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
